@@ -1,7 +1,27 @@
 aid: prograd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prograd.png
 name: ProGrad
-description: ProGrad is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ProGrad (prograd.uk) is a UK-based consumer mobile app that lets users earn
+  money by playing games and completing online tasks such as surveys and offers,
+  positioning itself as a leading "make money" app in the United Kingdom. Users
+  choose from a large catalogue of games and micro-tasks, accumulate rewards, and
+  withdraw earnings to PayPal or Visa once they pass a minimum threshold. The
+  company also publishes Gen Z insights and research alongside a consumer blog.
+  Surfaced as a Techstars portfolio company and added to the API Evangelist
+  network, ProGrad is a consumer-facing product with no public developer program,
+  API portal, or programmatic surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/prograd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Consumer
+- Rewards
+- Mobile App
+- Fintech
+- Gen Z
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://prograd.uk/
+- type: Blog
+  url: https://prograd.uk/blog
+- type: Support
+  url: https://prograd.uk/contact
+- type: TermsOfService
+  url: https://prograd.uk/terms-conditions
+- type: PrivacyPolicy
+  url: https://prograd.uk/privacy
+- type: DomainSecurity
+  url: security/prograd-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
